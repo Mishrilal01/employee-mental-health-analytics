@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# NOTE: data/mental_health_cleaned.csv is intentionally NOT ignored --
+# it is required for the app to run and must be committed for deployment.
