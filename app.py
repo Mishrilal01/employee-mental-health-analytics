@@ -76,8 +76,8 @@ st.markdown(
         [data-testid="stMetric"] {background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--teal);border-radius:12px;padding:1rem 1.1rem .85rem;box-shadow:0 5px 16px rgba(23,35,49,.05);min-height:108px;}
         [data-testid="stMetricLabel"] {color:var(--muted);font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.035em;white-space:normal;line-height:1.2;}
         [data-testid="stMetricValue"] {color:var(--ink);font-family:'Space Grotesk',sans-serif;font-size:clamp(1.45rem,2.2vw,2rem);white-space:nowrap;}
-        [data-testid="stTabs"] [role="tablist"] {gap:.45rem;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.78);padding:.35rem .45rem;box-shadow:0 5px 16px rgba(23,35,49,.05);overflow-x:auto;scrollbar-width:thin;}
-        [data-testid="stTabs"] button {color:var(--muted);font-weight:600;padding:.62rem .85rem;border-radius:8px;border-bottom:0;transition:background .2s ease,color .2s ease;}
+        [data-testid="stTabs"] [role="tablist"] {gap:.7rem;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.78);padding:.4rem .6rem;box-shadow:0 5px 16px rgba(23,35,49,.05);overflow-x:auto;scrollbar-width:thin;}
+        [data-testid="stTabs"] button {flex:0 0 auto;color:var(--muted);font-weight:600;padding:.68rem 1rem;border-radius:8px;border-bottom:0;transition:background .2s ease,color .2s ease;}
         [data-testid="stTabs"] button:hover {color:var(--teal);background:var(--teal-soft);}
         [data-testid="stTabs"] button[aria-selected="true"] {color:#fff;background:var(--teal);border-bottom:0;box-shadow:0 3px 8px rgba(29,129,120,.22);}
         [data-testid="stExpander"] {border:1px solid var(--line);border-radius:10px;background:var(--panel);}
