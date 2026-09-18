@@ -267,12 +267,6 @@ with tabs[0]:
     st.markdown('<div class="section-kicker">At a glance</div>', unsafe_allow_html=True)
     st.subheader("Overview")
 
-    if filtered_df["Gender"].value_counts().min() if not filtered_df["Gender"].value_counts().empty else 0:
-        small_g = filtered_df["Gender"].value_counts()
-        smallest = small_g.idxmin()
-        if is_small_sample(small_g.min()):
-            small_sample_note(small_g.min(), f"the '{smallest}' gender group")
-
     c1, c2 = st.columns(2)
     with c1:
         show_chart_or_message(
