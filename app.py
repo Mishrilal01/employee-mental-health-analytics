@@ -67,6 +67,10 @@ st.markdown(
         [data-testid="stSidebar"] hr {border-color:#385060;}
         [data-testid="stSidebar"] button {border-radius:8px;border:1px solid #587080;background:#243849;}
         [data-testid="stSidebar"] button:hover {border-color:#83d0c4;color:#fff;}
+            .sidebar-brand {display:flex;align-items:center;gap:.7rem;margin:.15rem 0 2.25rem;padding:.75rem .8rem;border:1px solid #385466;border-radius:12px;background:linear-gradient(135deg,#203545,#1a2b39);box-shadow:0 8px 18px rgba(0,0,0,.12);}
+            .sidebar-brand-mark {display:grid;place-items:center;width:2rem;height:2rem;border-radius:9px;background:#1d8178;color:#fff;font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:700;box-shadow:0 4px 10px rgba(29,129,120,.3);}
+            .sidebar-brand strong {display:block;color:#fff;font-family:'Space Grotesk',sans-serif;font-size:.82rem;letter-spacing:.06em;line-height:1.1;}
+            .sidebar-brand small {display:block;color:#9fc8c2;font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;margin-top:.22rem;}
         .hero {position:relative;overflow:hidden;background:linear-gradient(115deg,#172331 0%,#214b55 100%);border-radius:18px;padding:2.35rem 2.5rem 2.15rem;margin-bottom:1.5rem;box-shadow:0 14px 34px rgba(23,35,49,.14);}
         .hero:after {content:'✦';position:absolute;right:2.4rem;top:1rem;color:rgba(131,208,196,.7);font-size:8rem;line-height:1;transform:rotate(15deg);}
         .hero:before {content:'';position:absolute;right:-4rem;bottom:-5rem;width:17rem;height:17rem;border:1px solid rgba(131,208,196,.25);border-radius:50%;box-shadow:0 0 0 1.3rem rgba(131,208,196,.04),0 0 0 2.6rem rgba(131,208,196,.03);}

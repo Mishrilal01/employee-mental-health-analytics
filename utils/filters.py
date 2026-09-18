@@ -57,6 +57,11 @@ def render_sidebar_filters(df: pd.DataFrame) -> FilterSelections:
     """Render every sidebar widget and return the current selections."""
     _init_state()
 
+        st.sidebar.markdown(
+            '<div class="sidebar-brand"><span class="sidebar-brand-mark">+</span>'
+            '<div><strong>PEOPLE PULSE</strong><small>Wellbeing analytics</small></div></div>',
+            unsafe_allow_html=True,
+        )
     st.sidebar.markdown("### Refine the view")
     st.sidebar.caption("Use the controls below to explore patterns across the survey.")
 
