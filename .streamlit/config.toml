@@ -12,3 +12,10 @@ enableXsrfProtection = true
 
 [browser]
 gatherUsageStats = false
+
+[theme.sidebar]
+backgroundColor = "#172331"
+secondaryBackgroundColor = "#243849"
+textColor = "#EAF2F0"
+primaryColor = "#83D0C4"
+font = "sans serif"
